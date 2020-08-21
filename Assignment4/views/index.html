@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <title>A4 COMP2406</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<style>
+table {
+    border-spacing: 50px;
+    padding = 0;
+}
+td{
+  border-spacing: 50px;
+  border: 1px solid black;
+  border-right:  = 50px;
+  border-bottom:  = 50px;
+  padding = 0;
+
+}
+h2{
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+}
+
+</style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            Enter an ingredient: <input type="text" value = '' name="Ingredient" id="Ingredient" />
+            <button id="submit" onclick="getIngredient()" style="margin-bottom: 50px;">Submit</button>
+        </div>
+        <div id="information"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
